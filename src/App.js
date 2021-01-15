@@ -1,8 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Student from './Student.js';
+import University from './University.js';
+import React from "react";
 
-function App() {
-  return (
+
+class App extends React.Component {
+  render(){
+    return (
+      <React.Fragment>
+          <University/>
+          <Student name="Rick Rude" number="1111" enrolled="2"/>
+          
+      </React.Fragment>
+    )
+  }
+}
+  /*return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +33,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
+  );*/
+
 
 export default App;
