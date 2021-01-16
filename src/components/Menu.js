@@ -9,6 +9,7 @@ class Menu extends React.Component {
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact Us</li>
+                    <li>learn react</li>
                 </ul>
             </div>
          );

@@ -1,12 +1,12 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
 
-describe('<App /> tests', () => {​​
+describe('<App /> tests', () => {
 
-  it('renders <App />', () => {​​
+  it('renders <App />', () => {
 
     render(<App />);
 
-  }​​);
+  });
 
-}​​);
+});
