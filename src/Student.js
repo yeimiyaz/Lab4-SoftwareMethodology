@@ -10,7 +10,7 @@ const Loop = () =>{
     return(rows)  
     }
 return  <div>
-            <p> Student <b>{props.name}</b> name with student <b>{props.number}</b> </p>
+            <p>Student <b>{props.name}</b> with student <b>{props.number}</b> </p>
             <Loop/>
         </div>
 };
