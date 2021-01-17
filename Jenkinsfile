@@ -16,8 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh "chmod ugo +x +R ${env.WORKSPACE}"
-                sh './jenkins/scripts/test.sh'
+                sh 'npm test'
             }
         }
         stage('Deliver') { 
